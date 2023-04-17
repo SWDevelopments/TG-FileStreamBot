@@ -1,5 +1,8 @@
 FROM python:3.9-alpine
 
+EXPOSE 8080/udp
+EXPOSE 8080/tcp
+
 WORKDIR /app
 
 COPY requirements.txt ./
