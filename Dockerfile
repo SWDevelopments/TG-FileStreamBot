@@ -1,7 +1,6 @@
 FROM python:3.9-alpine
 
-EXPOSE 8080/udp
-EXPOSE 8080/tcp
+EXPOSE 443
 
 WORKDIR /app
 
