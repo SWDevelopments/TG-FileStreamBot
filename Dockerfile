@@ -1,6 +1,6 @@
 FROM python:3.9-alpine
 
-EXPOSE 443
+EXPOSE 8080
 
 WORKDIR /app
 
